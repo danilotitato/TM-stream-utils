@@ -17,5 +17,6 @@ router.use('/socials', require('../controllers/socials.js'));
 router.use('/yt', require('../controllers/youtube.js'));
 router.use('/watchaction', require('../controllers/watchaction.js'));
 router.use('/misc', require('../controllers/misc.js'));
+router.use('/emote', require('../controllers/emote.js'));
 
 module.exports = router;
